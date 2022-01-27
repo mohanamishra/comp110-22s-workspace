@@ -1,6 +1,6 @@
 """EX01 - Chardle - A ctue step toward Wordle."""
 
-_author_ = "730391985"
+__author__ = "730391985"
 
 word: str = input("Enter a 5-character word: ")
 if len(word) != 5:
@@ -9,7 +9,7 @@ if len(word) != 5:
 
 letter: str = input("Enter a single character: ")
 if len(letter) != 1:
-    print ("Character must be a single character.")
+    print("Error: Character must be a single character.")
     exit()
 
 frequency: int = 0
